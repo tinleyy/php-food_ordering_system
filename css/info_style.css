@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*title*/
+.top_title{
+	font-size: 24px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin-left: 10px;
+}
+
+/*add-button*/
+#add{
+	float: left;
+	background-color:#ff3333;
+	width: 100px;
+	height:40px;
+	border:none;
+	border-radius: 8px 0px 0px 8px;
+	color:#FFF;
+	font-size: 15px;
+	font-family:monospace;
+	margin-left: 40px;
+	margin-top: 20px;
+	cursor: pointer;
+	z-index: -1;
+	outline: none;
+}
+
+/*add-button-ex*/
+.txtnew{
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #d9d9d9;
+	background-color: #404040;
+	margin-top: 20px;
+	border-radius: 0px 8px 8px 0px;
+	cursor: pointer;
+}
+
+/*add-button-text*/
+.txtnew h1{
+	font-size: 30px;
+	margin-top: 2px;
+}
+
+/*status-button*/
+.status_button button{
+	border: none;
+	background-color: #B0C4DE;
+	width: 95px;
+	height: 33px;
+	font-size: 14px;
+	font-family:monospace;
+	color: #FFF;
+	outline: none;
+}
+
+/*status-button-hover*/
+.status_button button:hover{
+	background-color: #FFA07A;
+	outline: none;
+}
+
+#remind{
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+}

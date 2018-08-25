@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	margin: 0;
+	padding: 0;
+	height: 100vmin;
+	width: 100%;
+	overflow: hidden;
+}
+
+/*top bar*/
+.top{
+	float:left;
+	background-color:white;
+	width:100%;
+	height:100vmin*8%;
+	border:#f0f0f0 1px solid;
+}
+
+/*top bar text*/
+.top h3{
+	float: left;
+	margin-top: 16px;
+	margin-left: 2px;
+	color: #7b7b7b;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*top bar user name*/
+.username{
+	float: left;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	margin-left: 45%;
+	margin-right: 5px;
+	line-height:55px;
+}
+
+/*top bar button*/
+.top button{
+	float: right;
+	width: 55px;
+	height:30px;
+	color:#FFF;
+	background-color:#0CF;
+	border: none;
+	cursor:pointer;
+	margin-right:15px;
+	margin-top: 12px;
+	text-align:center;
+	border-radius: 5px;
+}
+
+/*page icon background*/
+.icon-bg{
+	float:left;
+	width: 60px;
+	height: 60px;
+	background-color:#FFF;
+}
+
+/*page icon*/
+#icon{
+	float:left;
+	width: 40px;
+	height: 40px;
+	opacity: 0.8;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+/*left size bar*/
+.bar{
+	float:left;
+	background-color:#272730;
+	width: 18%;
+	height: 100vmax;
+	z-index: -2;
+}
+
+.bar ul{
+	list-style-type:none;
+	padding:0;
+}
+
+/*hyperlink*/
+.bar ul a{
+	text-decoration: none;
+}
+
+.bar button{
+	background-color: transparent;
+	width: 100%;
+	height: 70px;
+	border:none;
+	color:#666;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	cursor:pointer;
+	outline: none;
+}
+
+.home, .order, .wstock, .stock, .details{
+	height:70px;
+}
+
+/*button hover*/
+.home:hover, .order:hover, .wstock:hover, .stock:hover, .res:hover, .details:hover {
+	opacity: 0.8;
+	background-color:#333;
+	cursor:pointer;	
+}
+
+/*button text*/
+.home h3, .order h3, .stock h3, .res h3, .details h3{
+	float:left;
+	margin-left: 20px;
+	margin-top: 30px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*button*/
+#home, #order, #stock, #wstock, #details{
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color:#CCC;
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	opacity: 0.2;
+}
+
+/*right screen*/
+.info{
+	float:right;
+	background-color:#FFF;
+	width:82%;
+	height: 90%;
+	border:none;
+}
+
+@media only screen and (max-width: 1000px){
+	#txtbar{
+		display: none;
+	}
+	.bar{
+		width: 10%;
+	}
+	.info{
+		width: 90%;
+	}
+}
